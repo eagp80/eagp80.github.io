@@ -23,11 +23,12 @@
 </head>
 
 <body>
-  <h1>PÁGINA DE PRUEBA CON JAVA SCRIPT DE EFREN. </h1>
+  <h1>CLASES PERSONALIZADAS DE MATEMÁTICAS Y FÍSICA. </h1>
+
   <h1> ¡Hola a todos Feliz Año 2023! </h1>
   <h2> Si necesitas clases particulares de Matemáticas y Física, escribeme a eagp80@gmail.com </h2>
   <h2>.**************************************************************************************. </h2>
-
+  <h2> PÁGINA EN CONSTRUCCIÓN PUEDE ESTAR TENIENDO CAMBIOS CONSTANTEMENTE</h2>
 <!-- <picture> 
       <img src= 'https://randomuser.me/api/portraits/women/1.jpg'/>
       Andrea
@@ -93,7 +94,7 @@
 
     /* **********     Curso JavaScript: 4. Constantes (const) - #jonmircha     ********** */
 
-     let a;
+    /* let a;
      const PI = 3.1416;
      //const NUEVE;
      console.log(PI);
@@ -116,7 +117,7 @@
      colores.push("anaranjado");
 
      console.log(objeto);
-     console.log(colores); 
+     console.log(colores); */
 
 
 
@@ -197,7 +198,7 @@
 
     /* **********     Curso JavaScript: 7. Números (Numbers) - #jonmircha     ********** */
 
-    let ab = 2;
+   /* let ab = 2;
     let b = new Number(1);
     let c = 7.19;
     let d = "5.6";
@@ -212,7 +213,7 @@
     console.log(c + parseInt(d));
     console.log(c + parseFloat(d));
     console.log(c + Number.parseInt(d));
-    console.log(c + Number.parseFloat(d));
+    console.log(c + Number.parseFloat(d));*/
     
 
 
@@ -240,7 +241,7 @@
     /* **********     Curso JavaScript: 9. undefined, null & NaN - #jonmircha     ********** */
 
     //undefined indica que no se ha inicializado una variable y que el valor está ausente
-    let indefinida;
+   /* let indefinida;
     console.log(indefinida);
 
     //null es un valor especial que indica la ausencia de un valor
@@ -250,7 +251,7 @@
     //NaN - Not a Number
     let noEsUnNumero = a* 3.7;
     console.log(noEsUnNumero); 
-    console.log(a);
+    console.log(a);*/
 
 
 
@@ -271,97 +272,103 @@
        console.log("Uno");
        console.log("Dos");
        console.log("Tres");
-     } */
+     } 
 
     //Invocación de función
-    /* estoEsUnaFuncion();
     estoEsUnaFuncion();
     estoEsUnaFuncion();
-    estoEsUnaFuncion(); */
+    estoEsUnaFuncion();
+    estoEsUnaFuncion();
 
-    /* function unaFuncionQueDevuelveValor() {
+    function unaFuncionQueDevuelveValor() {
       console.log("Uno");
-      return 19;
+      //return 19;
       console.log("Dos");
       console.log("Tres");
       return "La función ha retornado una Cadena de texto";
-    } */
+    } 
 
-    //let valorDeFuncion = unaFuncionQueDevuelveValor();
+    let valorDeFuncion = unaFuncionQueDevuelveValor();
 
-    //console.log(valorDeFuncion);
+    console.log(valorDeFuncion);
 
-    /*  function saludar(nombre = "Desconocido", edad = 0) {
+     function saludar(nombre = "Desconocido", edad = 0) {
        console.log(`Hola mi nombre es ${nombre} y tengo ${edad} años.`);
-     } */
+     } 
 
-    //saludar("kEnAi", 7);
-    //saludar();
+    saludar("Alex", 39);
+    saludar();*/
 
     //Funciones declaradas VS funciones expresadas
 
-    //funcionDeclarada();
+    /* funcionDeclarada();
 
-    /* function funcionDeclarada() {
+    function funcionDeclarada() {
       console.log("Esto es un función declarada, puede invocarse en cualquier parte de nuestro código, incluso antes de que la función sea declarada");
-    } */
+    } 
 
-    //funcionDeclarada();
+    funcionDeclarada();
 
     //funcionExpresada();
 
     //función anónima
-    /* const funcionExpresada = function () {
+    const funcionExpresada = function () {
       console.log("Esto es una función expresada, es decir, una función que se le ha asignado como valor a una variable, si invocamos esta función antes de su definición JS nos dirá 'Cannot access 'funcionExpresada' before initialization'")
-    } */
+    } 
 
-    //funcionExpresada();
+    funcionExpresada();
 
-
-
+    const AAbb = function() {
+      console.log("alex prueba");
+    }
+    AAbb();*/
 
 
     /* **********     Curso JavaScript: 11. Arreglos (Arrays) - #jonmircha     ********** */
 
-    /*     const a = [];
-        const b = [1, true, "Hola", ["A", "B", "C", [1, 2, 3]]];
-        console.log(a);
-        console.log(b);
-        console.log(b.length);
-        console.log(b[2]);
-        console.log(b[0]);
-        console.log(b[3]);
-        console.log(b[3][2]);
-        console.log(b[3][3][0]);
+      /*  const abc = [];
+        const bcd = [1, true, "Hola", ["A", "B", "C", [1, 2, 3]]];
+        console.log(abc);
+        console.log(bcd);
+        console.log(bcd.length);
+        console.log(bcd[2]);
+        console.log(bcd[0]);
+        console.log(bcd[3]);
+        console.log(bcd[3][2]);
+        console.log(bcd[3][3][0]);*/
 
-        const c = Array.of("X", "Y", "Z", 9, 8, 7);
-        console.log(c);
+        /*const cab = Array.of("X", "Y", "Z", 9, 8, 7);
+        console.log(cab);
 
-        const d = Array(100).fill(false);
-        console.log(d);
-
+        const dab = Array(12).fill(alex);
+        console.log(dab);
+        const axc = Array(5).fill("ok");
+        console.log(axc);
         const e = new Array();
-        console.log(e);
+        console.log(e); 
 
         const f = new Array(1, 2, 3, true, false);
         console.log(f);
 
-        const colores = ["Rojo", "Verde", "Azul"];
-        console.log(colores);
+        const colores2 = ["Rojo", "Verde", "Azul"];
+        console.log(colores2);
 
-        colores.push("Negro");
-        console.log(colores);
+        colores2.push("Negro");
+        console.log(colores2);
 
-        colores.pop();
-        console.log(colores);
+        colores2.pop();
+        console.log(colores2);
+        axc.push("perro");
+        console.log(axc);
 
-        colores.forEach(function (el, index) {
-          console.log(`<li id="${index}">${el}</li>`);
-        }); */
-
-
-
-
+        axc.forEach(function (esta, index) {
+          console.log(`<li id="${index}">${esta}</li>`);
+        }); 
+        axc.forEach(function(pe, pa){
+          console.log(`Hola ${pe} chao ${pa}` )
+        });
+        */
+       
 
     /* **********     Curso JavaScript: 12. Objetos - #jonmircha     ********** */
 
@@ -423,12 +430,12 @@
     /* Operadores */
     /* Aritméticos:  + - * / % ()  */
 
-    /* let a = 5 + (5 - 10) * 3;
-    let modulo = 5 % 2;
+     let a = 5 + (5 - 10) * 3;
+    let modulo = 12 % 9;
 
     console.log(a);
     console.log(modulo);
- */
+ 
 
     /*  Relacionales: >, <,   >=, <=, ==, ===, !=, !== */
 
