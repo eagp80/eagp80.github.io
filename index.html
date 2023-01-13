@@ -72,7 +72,7 @@
     de
     varias
     líneas */
-    console.log ("****************var*****************");
+    /*console.log ("****************var*****************");
     var musica = "Rock";
     console.log("Variable Música antes del Bloque", musica);
     {
@@ -87,7 +87,7 @@
       let musica2 = "Pop";
       console.log("Variable Música dentro del Bloque", musica2);
     }
-    console.log("Variable Música después del Bloque", musica2); 
+    console.log("Variable Música después del Bloque", musica2); */
 
 
 
@@ -367,8 +367,8 @@
         }); 
         axc.forEach(function(pe, pa){
           console.log(`Hola ${pe} chao ${pa}` )
-        });
-        */
+        });*/
+        
        
 
     /* **********     Curso JavaScript: 12. Objetos - #jonmircha     ********** */
@@ -431,21 +431,21 @@
     /* Operadores */
     /* Aritméticos:  + - * / % ()  */
 
-     let a = 5 + (5 - 10) * 3;
+     /*let a = 5 + (5 - 10) * 3;
     let modulo = 12 % 9;
 
     console.log(a);
-    console.log(modulo);
+    console.log(modulo);*/
  
 
     /*  Relacionales: >, <,   >=, <=, ==, ===, !=, !== */
 
-    console.log(8 > 9);
+    /*console.log(8 > 9);
     console.log(9 > 8);
     console.log(8 <= 9);
     console.log(9 >= 8);
     console.log(7 < 7);
-    console.log(7 <= 7); 
+    console.log(7 <= 7); */
 
     /*
     = 1 igual es asignación  de variable
@@ -613,18 +613,18 @@ switch(animal){
 
     /* **********     Curso JavaScript: 15. Ciclos (Loops) - #jonmircha     ********** */
 
-    /*  let contador = 0;
+    /*  let cuenta = 0;
 
-     while (contador < 10) {
-       console.log("while " + contador);
-       contador++;
+     while (cuenta < 8) {
+       console.log("while " + cuenta);
+       cuenta++;
      }
 
 
      do {
-       console.log("do while " + contador);
-       contador++;
-     } while (contador < 10); */
+       console.log("do while " + cuenta);
+       cuenta++;
+     } while (cuenta < 10); 
 
     /* for (inicialización de variable; condición; decremento o incremento) {
       sentencias que ejecuta el for
@@ -632,54 +632,55 @@ switch(animal){
       sentencias que ejecuta el for
     } */
 
-    /* for (let i = 0; i < 10; i++) {
+    /*for (let i = 0; i < 7; i++) {
       console.log("for " + i);
-    }
+    } */
 
-    let numeros = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+  /* let numeros = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
 
-    for (let i = 0; i < numeros.length; i++) {
+    
+   for (let i = 0; i < numeros.length; i++) {
       console.log(numeros[i]);
     }
 
-    const jon = {
-      nombre: "Jon",
-      apellido: "MirCha",
+    const alex = {
+      nombre: "Efren",
+      apellido: "García",
       edad: 35
     }
 
-    for (const propiedad in jon) {
-      console.log(`Key: ${propiedad}, Value: ${jon[propiedad]}`);
+    for (const categoria in alex) {
+      console.log(`Item: ${categoria}, Valor: ${alex[categoria]}`);
     }
 
-    for (const elemento of numeros) {
-      console.log(elemento);
+    for (const e of numeros) {
+      console.log(e);
     }
+    
+    let cadenita = "Hola Mundo";
 
-    let cadena = "Hola Mundo";
-
-    for (const caracter of cadena) {
-      console.log(caracter);
-    } */
-
+    for (const caracterX of cadenita) {
+      console.log(caracterX);
+    } 
+    console.log(cadenita);*/
 
 
 
 
     /* **********     Curso JavaScript: 16. Manejo de Errores - #jonmircha     ********** */
-    /*  try {
+    /* try {
        console.log("En el Try se agrega el código a evaluar");
        noExiste;
        console.log("Segundo mensaje en el try");
-     } catch (error) {
+     } catch (errorX) {
        console.log("Catch, captura cualquier error surgido o lanzado en el try");
-       console.log(error);
+       console.log(errorX);
      } finally {
-       console.log("El bloque finally se ejecutará siempre al final de unbloque try-catch");
-     }
+       console.log("El bloque finally se ejecutará siempre al final de un bloque try-catch");
+     }*/
 
 
-     try {
+      /*try {
        let numero = "y";
 
        if (isNaN(numero)) {
@@ -689,7 +690,7 @@ switch(animal){
        console.log(numero * numero);
      } catch (error) {
        console.log(`Se produjo el siguiente error: ${error}`);
-     } */
+     }*/
 
 
 
@@ -697,47 +698,48 @@ switch(animal){
 
     /* **********     Curso JavaScript: 17. break & continue - #jonmircha     ********** */
 
-    /* const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
+    /*const numeros = [1, 2, 3, 4, 5, 6, 7];
 
     for (let i = 0; i < numeros.length; i++) {
-      if (i === 5) {
+      if (i === 1) {
         break;
       }
       console.log(numeros[i]);
     }
 
     for (let i = 0; i < numeros.length; i++) {
-      if (i === 5) {
+      if (i === 6) {
         continue;
       }
       console.log(numeros[i]);
     } */
 
 
+    
 
 
 
     /* **********     Curso JavaScript: 18. Destructuración - #jonmircha     ********** */
-    /* const numeros = [1, 2, 3];
+    /*const carros = ["fiat", "chevette", "ford"];
 
     //Sin destructuración
-    let uno = numeros[0],
-      dos = numeros[1],
-      tres = numeros[2];
+    let uno = carros[0],
+      dos = carros[1],
+      tres = carros[2];
 
     console.log(uno, dos, tres);
 
     //Con destructuración
-    const [one, two, three] = numeros;
+    const [one, two, three] = carros;
     console.log(one, two, three);
 
-    const persona = {
-      nombre: "Jon",
-      apellido: "MirCha",
+    const efren = {
+      nombre: "Efren",
+      apellido: "García",
       edad: 35
     };
 
-    let { nombre, edad, apellido } = persona;
+    let { nombre, edad, apellido } = efren;
     console.log(nombre, apellido, edad); */
 
 
@@ -745,61 +747,75 @@ switch(animal){
 
 
     /* **********     Curso JavaScript: 19. Objetos literales - #jonmircha     ********** */
-    /* let nombre = "kEnAi",
-      edad = 7;
+    /* let nombre = "Michu",
+      edad = 1;
 
-    const perro = {
+    const gato = {
       nombre: nombre,
       edad: edad,
-      ladrar: function () {
-        console.log("guauu guauu!!!")
+      michear: function () {
+        console.log("miau miau")
       }
     }
 
-    console.log(perro);
-    perro.ladrar()
+    console.log(gato);
+    gato.michear();
 
-    const dog = {
+    const cat = {
       nombre,
-      edad,
       raza: "Callejero",
-      ladrar() {
-        console.log("guauu guauu guauu!!!")
+      edad,
+     
+      michear() {
+        console.log("Miau miau miauuu")
       }
     }
 
-    console.log(dog);
-    dog.ladrar(); */
+    console.log(cat);
+    cat.michear(); */
 
 
+
+  
 
 
 
     /* **********     Curso JavaScript: 20. Parámetros REST & Operador Spread - #jonmircha     ********** */
-    /* function sumar(a, b, ...c) {
+     /*function sumar(a, b, ...c) {
       let resultado = a + b;
-
-      c.forEach(function (n) {
-        resultado += n
-      });
-
       return resultado;
     }
+      let A = sumar(5,9);          
+      console.log(sumar(2,7));
+      console.log(A);
+      console.log("***aaa***");
 
-    console.log(sumar(1, 2));
-    console.log(sumar(1, 2, 3));
-    console.log(sumar(1, 2, 3, 4));
-    console.log(sumar(1, 2, 3, 4, 5));
-    console.log(sumar(1, 2, 3, 4, 5, 6));
-    console.log(sumar(1, 2, 3, 4, 5, 6, 7));
+      function sumar2(a , b, ...c){
+        let resultado2= a + b;
+      c.forEach(function (n) {
+        resultado2 += n
+      });
+      
+      return resultado2;
+    }
+    Resultado2Afuera=sumar2(25,10,1,10,10);
+    console.log(sumar2(11,7));
+    console.log(Resultado2Afuera);*/
+
+    // console.log(sumar(1, 2));
+    // console.log(sumar(1, 2, 3));
+    // console.log(sumar(1, 2, 3, 4));
+    // console.log(sumar(1, 2, 3, 4, 5));
+    // console.log(sumar(1, 2, 3, 4, 5, 6));
+    // console.log(sumar(1, 2, 3, 4, 5, 6, 7));
 
 
 
-    const arr1 = [1, 2, 3, 4, 5],
+    /*const arr1 = [1, 2, 3, 4, 5],
       arr2 = [6, 7, 8, 9, 0];
-
+    arr1.push(4);
     console.log(arr1, arr2);
-
+    console.log("***bbb***");
     const arr3 = [...arr1, ...arr2];
     console.log(arr3); */
 
@@ -808,8 +824,10 @@ switch(animal){
 
 
     /* **********     Curso JavaScript: 21. Arrow Functions - #jonmircha     ********** */
-    /* const saludar = () => console.log(`Hola`);
-    saludar(); */
+    const saludar = () => console.log(`Hola`);
+    saludar(); 
+    let num = prompt("dime tu nombre");
+    console.log(`Hola, espero poder ayudarte ${num} , escríbeme a eagp80@gmail.com`);
 
     /* const saludar = nombre => console.log(`Hola ${nombre}`);
     saludar("Irma");
