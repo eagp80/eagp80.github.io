@@ -14,7 +14,7 @@
       width: 100px;
     }
     img {
-     box-shadow: 0 0 15px rgb(40, 80, 50);
+     box-shadow: 0 0 15px rgb(60, 1, 255);
       /* border-radius: 400%; */
       width: 380px;
     } 
@@ -29,6 +29,7 @@
   <h2> Si necesitas clases particulares de Matemáticas y Física, escribeme a eagp80@gmail.com </h2>
   <h2>.**************************************************************************************. </h2>
   <h2> PÁGINA EN CONSTRUCCIÓN PUEDE ESTAR TENIENDO CAMBIOS CONSTANTEMENTE</h2>
+
 <!-- <picture> 
       <img src= 'https://randomuser.me/api/portraits/women/1.jpg'/>
       Andrea
@@ -44,9 +45,33 @@
        Ing. Alexander
 </a>
 </picture>
+<!-- =====================================================================
+          ///////////   Este es su botón de Botón de pago ePayco   ///////////
+         ===================================================================== -->
+         <form>
+          <script src='https://checkout.epayco.co/checkout.js'
+              data-epayco-key='5a87950a26b47252f1810f66a8ef7ca5' 
+              class='epayco-button' 
+              data-epayco-amount='25000' 
+              data-epayco-tax='0.00'  
+              data-epayco-tax-ico='0.00'               
+              data-epayco-tax-base='25000'
+              data-epayco-name='Clase personalizada' 
+              data-epayco-description='Clase personalizada' 
+              data-epayco-currency='cop'    
+              data-epayco-country='CO' 
+              data-epayco-test='true' 
+              data-epayco-external='true' 
+              data-epayco-response=''  
+              data-epayco-confirmation='' 
+              data-epayco-button='https://multimedia.epayco.co/dashboard/btns/btn3.png'> 
+          </script> 
+      </form> <!-- ================================================================== -->
   <script>
-    /* **********     Curso JavaScript: 3. Variables: var 🥊VS🥊 let - #jonmircha     ********** */
-
+     //let num = prompt("dime tu nombre");
+     //document.write(`Hola, espero poder ayudarte ${num} , escríbeme a eagp80@gmail.com`);
+   /* **********     Curso JavaScript: 3. Variables: var 🥊VS🥊 let - #jonmircha     ********** */
+    
   /*   var hola = "Hola Mundo";
     let hello = "Hello World";
     var alex = "el lider"
@@ -820,53 +845,49 @@ switch(animal){
     console.log(arr3); */
 
 
-
-
-
     /* **********     Curso JavaScript: 21. Arrow Functions - #jonmircha     ********** */
-    const saludar = () => console.log(`Hola`);
+   /* const saludar = () => console.log(`Hola`);
     saludar(); 
-    let num = prompt("dime tu nombre");
-    document.write(`Hola, espero poder ayudarte ${num} , escríbeme a eagp80@gmail.com`);
-
-    /* const saludar = nombre => console.log(`Hola ${nombre}`);
-    saludar("Irma");
- */
-    /* const sumar = function (a, b) {
+  
+     const saludar2 = nombre => console.log(`Hola ${nombre}`);
+    saludar2("Pedro");
+ 
+    const sumar = function (a, b) {
       return a + b;
-    } */
+    } 
+    console.log(sumar(7,8));
+    const sumar2 = (a, b) => a + b;
 
-    /*  const sumar = (a, b) => a + b;
+     console.log(sumar2(9, 10));
 
-     console.log(sumar(9, 9));
-
-     const funcionDeVariasLineas = () => {
+     const funcionLineas = () => {
        console.log("Uno");
        console.log("Dos");
        console.log("Tres");
      }
 
-     funcionDeVariasLineas();
+     funcionLineas();
 
-     const numeros = [1, 2, 3, 4, 5];
+     const numeros = [10, 20, 30, 40, 50];
 
-     numeros.forEach((el, index) => console.log(`${el} esta en la posición ${index}`));
+     numeros.forEach((el, i) => console.log(`${el} esta en la posición ${i}`));*/
 
-  */
-    /*   function Perro() {
+  
+    function Perro() {
         console.log(this);
       }
 
-      Perro(); */
+     Perro(); 
 
-    /*     const perro = {
+    const perro = {
           nombre: "kenai",
           ladrar() {
-            console.log(this)
+            console.log(this);
+            console.log(this.nombre);
           }
         }
 
-        perro.ladrar(); */
+        perro.ladrar(); 
 
 
 
