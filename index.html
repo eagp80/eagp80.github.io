@@ -7,6 +7,10 @@
   <title>Clases y asesorías Efren </title>
   <link rel="icon" type="image/png" href="imagenes/icono2.png" sizes="16x16">
   <style>
+    .epayco-button {box-shadow: 0 0 15px rgb(60, 1, 255);
+      /* border-radius: 400%; */
+      width: 200px;}
+    body{background-color: rgb(125, 240, 255);}
     picture {
       display: flex;
       flex-direction: column;
@@ -27,7 +31,7 @@
   
   <hr/>
     
-  <h2> Si necesitas clases particulares de Matemáticas y Física, escríbeme a eagp80@gmail.com  </h2>
+  <h2 style="color:chocolate"> Si necesitas clases particulares de Matemáticas y Física, escríbeme a eagp80@gmail.com  </h2>
   <h2> o contactame por mercadolibre colombia en el enlace de mas abajo</h2>
 
 <!-- <picture> 
@@ -892,22 +896,26 @@ switch(animal){
      numeros.forEach((el, i) => console.log(`${el} esta en la posición ${i}`));*/
 
   
-    function Perro() {
+    /*function Perro() {
         console.log(this);
       }
 
      Perro(); 
 
-    /*const perro = {
+    const perro = {
           nombre: "kenai",
           ladrar() {
             console.log(this);
             console.log(this.nombre);
           }
         }
+        perro.ladrar(); */
 
-        perro.ladrar(); 
-
+        /* **********     esto no es del curso     ********** */
+      /*  function holaMundo(nombre) {
+            alert(`Hola mundo ${nombre}`);
+          }
+        holaMundo("Jonathan");*/
 
 
 
@@ -922,7 +930,7 @@ switch(animal){
      */
 
 
-    /* const animal = {
+     const animal = {
       nombre: "Snoopy",
       sonar() {
         console.log("Hago sonidos por que estoy vivo");
@@ -937,11 +945,11 @@ switch(animal){
     }
 
     console.log(animal);
-    console.log(animal2); */
-
+    console.log(animal2);/* */
+    
 
     //Función constructora
-    /*     function Animal(nombre, genero) {
+        function Animal(nombre, genero) {
           //Atributos
           this.nombre = nombre;
           this.genero = genero;
@@ -954,23 +962,31 @@ switch(animal){
           this.saludar = function () {
             console.log(`Hola me llamo ${this.nombre}`);
           }
-        } */
+        } 
+        const Gatito = new Animal("Gatito", "Macho");
+        console.log(Gatito);
+        Gatito.sonar();
+        Gatito.saludar();
+       
+        /* */
 
     //Función constructora donde asignamos los métodos al Prototipo, no a la función como tal
-    /*  function Animal(nombre, genero) {
+     /* function Animal(nombre, genero) {
        //Atributos
        this.nombre = nombre;
        this.genero = genero;
      } */
-
+    
     //Métodos agregados al prototipo de la función constructora
-    /* Animal.prototype.sonar = function () {
-      console.log("Hago sonidos por que estoy vivo");
+    Animal.prototype.sonar = function () {
+      console.log("2Hago sonidos por que estoy vivo");
     }
 
     Animal.prototype.saludar = function () {
-      console.log(`Hola me llamo ${this.nombre}`);
-    } */
+      console.log(`2Hola me llamo ${this.nombre}`);
+    } /* */
+    Gatito.saludar();
+    console.log(this);
 
     //Herencia Prototípica
     /* function Perro(nombre, genero, tamanio) {
