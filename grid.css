@@ -16,6 +16,13 @@ body {
   min-height: 100%;
 }
 
+.img1 {
+  box-shadow: 0 0 15px rgb(131, 237, 237); 
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;  
+}
+
 .grid-container > * {
   /* box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75); */
   border-radius: 4px;
@@ -85,6 +92,10 @@ body {
       "header  header header"  100px
       "navbar  main   sidebar" auto
       "footer  footer footer"  80px /
-      100px    auto   100px;
+      100px    auto   100px;      
+  } 
+  .img1 {
+    width: 80%;
+  } 
   }
-}
+  
