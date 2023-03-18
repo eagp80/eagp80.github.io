@@ -60,8 +60,8 @@ body {
   display: grid;
   gap: 1px;
   grid-template:
-    "header"  420px
-    "navbar"  20px
+    "header"  150px
+    "navbar"  200px
     "main"    auto
     "sidebar" 20px
     "footer"  80px;
@@ -79,7 +79,7 @@ body {
 
     grid-template:
       "header  header" 100px
-      "navbar  navbar" 50px
+      "navbar  navbar" 200px
       "sidebar main"   auto
       "footer  footer" 80px /
       100px    auto;
@@ -89,10 +89,10 @@ body {
 @media (min-width: 900px) {
   .grid-container {
     grid-template:
-      "header  header header"  350px
+      "header  header header"  100px
       "navbar  main   sidebar" auto
       "footer  footer footer"  80px /
-      100px    auto   100px;      
+      300px    auto   300px;      
   } 
   .img1 {
     width: 80%;
