@@ -89,7 +89,7 @@ body {
 @media (min-width: 900px) {
   .grid-container {
     grid-template:
-      "header  header header"  100px
+      "header  header header"  120px
       "navbar  main   sidebar" auto
       "footer  footer footer"  80px /
       265px    auto   265px;      
