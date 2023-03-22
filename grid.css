@@ -60,7 +60,7 @@ body {
   display: grid;
   gap: 1px;
   grid-template:
-    "header"  150px
+    "header"  170px
     "navbar"  200px
     "main"    auto
     "sidebar" 20px
