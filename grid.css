@@ -32,7 +32,8 @@ body {
 
 .header {
   grid-area: header;
-  background-color: plum;
+  background-color: rgb(191,128,255);
+  /* background-color: plum; */
 }
 
 .navbar {
