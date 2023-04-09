@@ -64,7 +64,7 @@ body {
     "header"  170px
     "navbar"  200px
     "main"    auto
-    "sidebar" 20px
+    "sidebar" 300px
     "footer"  80px;
 }
 
@@ -83,7 +83,7 @@ body {
       "navbar  navbar" 200px
       "sidebar main"   auto
       "footer  footer" 80px /
-      100px    auto;
+      200px    auto;
   }
 }
 
