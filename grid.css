@@ -61,7 +61,7 @@ body {
   display: grid;
   gap: 1px;
   grid-template:
-    "header"  170px
+    "header"  250px
     "navbar"  200px
     "main"    auto
     "sidebar" 300px
@@ -79,7 +79,7 @@ body {
     "footer  footer"; */
 
     grid-template:
-      "header  header" 100px
+      "header  header" 250  px
       "navbar  navbar" 200px
       "sidebar main"   auto
       "footer  footer" 80px /
@@ -90,7 +90,7 @@ body {
 @media (min-width: 900px) {
   .grid-container {
     grid-template:
-      "header  header header"  120px
+      "header  header header"  200px
       "navbar  main   sidebar" auto
       "footer  footer footer"  80px /
       265px    auto   265px;      
