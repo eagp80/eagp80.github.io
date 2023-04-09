@@ -79,7 +79,7 @@ body {
     "footer  footer"; */
 
     grid-template:
-      "header  header" 250  px
+      "header  header" 250px
       "navbar  navbar" 200px
       "sidebar main"   auto
       "footer  footer" 80px /
