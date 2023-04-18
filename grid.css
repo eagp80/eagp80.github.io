@@ -61,10 +61,10 @@ body {
   display: grid;
   gap: 1px;
   grid-template:
-    "header"  250px
+    "header"  350px
     "navbar"  200px
     "main"    auto
-    "sidebar" 300px
+    "sidebar" 350px
     "footer"  100px;
 }
 
